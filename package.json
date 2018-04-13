@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "umi dev",
+    "build": "PUBLIC_PATH=/dist/static/ BASE_URL=/dist/ umi build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "umi": "*",
+    "umi-plugin-dva": "*"
+  }
+}
